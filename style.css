@@ -104,7 +104,7 @@
     font-weight: 700;
 } */
 
-.box{
+/* .box{
     width: 455px;
     background-color: bisque;
     padding: 10px;
@@ -139,4 +139,77 @@
 .box:hover .overley{
     transform: translateY(0);
     background-color: blue;
+} */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 80px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.item{
+    border: 1px solid grey;
+    margin-right: 30px;
+    position: relative;
+}
+.menu-link{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 20px;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+}
+.submenu{
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    position: absolute;
+    width: 70%;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: antiquewhite;
+}
+.item:hover .submenu{
+    display: block;
+}
+
+.one{
+    background-color: bisque;
+}
+.thre{
+    background-color: pink;
+}
+.two{
+    background-color: blueviolet;
+}
+.page-header{
+    position: fixed;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 30px;
+    border-bottom: 10px solid black;
+}
+.btn{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
 }
