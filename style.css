@@ -140,7 +140,7 @@
     transform: translateY(0);
     background-color: blue;
 } */
-html{
+/* html{
     scroll-behavior: smooth;
 }
 body{
@@ -212,4 +212,48 @@ body{
     position: fixed;
     right: 70px;
     bottom: 70px;
+} */
+
+.menu{
+    position: relative;
+}
+.menu-link{
+    background-color: grey;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding: 50px 20px;
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.menu-link:hover{
+    color: rgb(249, 215, 174);
+}
+.submenu{
+    position: absolute;
+    height: 86%;
+    top: 0;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    background-color: grey;
+    transform: translateX(-120%);
+    transition: transform 500ms ease-in-out;
+}
+.menu:hover .submenu{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+.submenu-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+}
+.submenu-link:hover{
+    color: rgb(249, 215, 174);
 }
