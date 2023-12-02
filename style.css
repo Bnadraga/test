@@ -419,7 +419,7 @@ img{
     width: 100%;
 } */
 
-.boxx{
+/* .boxx{
     display: flex;
     justify-content: space-between;
 }
@@ -429,4 +429,29 @@ img{
 .text{
     color: coral;
     font-size: 30px;
+} */
+
+#div-one{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    border: 1px solid purple;
+}
+#div-two,
+#div-four{
+    padding: 50px;
+    border: 1px solid plum;
+    background-color: aqua;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+}
+#div-three{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    border: 1px solid rgb(255, 91, 91);
+    perspective: 22px;
 }
