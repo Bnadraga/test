@@ -473,3 +473,106 @@ img{
     display: flex;
     align-items: center;
 } */
+
+/* body{
+    background-color: skyblue;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.sun{
+    margin: 100px auto;
+    animation-name: chSun;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes chSun{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.cloud{
+    animation-name: chCloud;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+    display: block;
+}
+@keyframes chCloud{
+    0%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} */
+
+/* .box{
+    animation-name: chBox;
+    width: 150px;
+    height: 150px;
+    border-radius: 17px;
+    border: 1px solid grey;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box:hover{
+    animation-play-state: paused;
+}
+@keyframes chBox{
+    0%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+} */
+
+#circle1 { 
+    animation-name: cirlce1; 
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+  } 
+  #circle2 { 
+    animation-name: cirlce2; 
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+  } 
+  @keyframes cirlce1 { 
+    from { 
+      cy: 0%; 
+      fill: none; 
+      stroke: grey; 
+    } 
+    to { 
+      cy: 50%; 
+      fill: #9284D9; 
+      stroke: white; 
+    } 
+  } 
+  @keyframes cirlce2 { 
+    from { 
+      cx: 100%; 
+      fill: none; 
+      stroke: grey; 
+    } 
+    to { 
+      cx: 52%; 
+      fill: #9284D9; 
+      stroke: white; 
+    } 
+  }
