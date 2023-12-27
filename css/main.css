@@ -1,8 +1,88 @@
-.team {
-  background-color: aquamarine;
-  padding-top: 50px;
-  padding-bottom: 50px;
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-.team:hover {
-  background-color: brown;
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.team {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: rgb(243, 243, 154);
+}
+
+.team__title {
+  text-align: center;
+  font-size: 28px;
+  color: orangered;
+  cursor: pointer;
+}
+.team__title:hover {
+  color: red;
+}
+
+.team__item {
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  border: 1px dashed grey;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team__list {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }/*# sourceMappingURL=main.css.map */
