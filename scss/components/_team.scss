@@ -1,27 +1,27 @@
-.team{
-    padding-bottom: 50px;
-    padding-top: 50px;
-    background-color: rgb(243, 243, 154);
-}
-.team__title{
-    text-align: center;
-    font-size: 28px;
-    color: orangered;
-    cursor: pointer;
+// .team{
+//     padding-bottom: 50px;
+//     padding-top: 50px;
+//     background-color: rgb(243, 243, 154);
+// }
+// .team__title{
+//     text-align: center;
+//     font-size: 28px;
+//     color: orangered;
+//     cursor: pointer;
 
-    &:hover{
-        color: red;
-    }
-}
-.team__item{
-    width: 150px;
-    height: 150px;
-    background-color: skyblue;
-    border: 1px dashed grey;
-    font-size: 22px;
-    @include flex;
-}
-.team__list{
-    margin-top: 50px;
-    @include flexbox;
-}
+//     &:hover{
+//         color: red;
+//     }
+// }
+// .team__item{
+//     width: 150px;
+//     height: 150px;
+//     background-color: skyblue;
+//     border: 1px dashed grey;
+//     font-size: 22px;
+//     @include flex;
+// }
+// .team__list{
+//     margin-top: 50px;
+//     @include flexbox;
+// }
